@@ -1,0 +1,28 @@
+# In gitigore
+# Virtual Environment
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# VS Code
+.vscode/
+
+# =========================
+# Data & Saved Models
+# =========================
+
+# Include data folders
+!data/
+!data/raw/
+!data/processed/
+
+# Include saved models folder
+!saved_models/
+
+# But still ignore temporary or cache files inside them
+data/**/*.tmp
+data/**/*.log
+saved_models/**/*.tmp
+saved_models/**/*.log

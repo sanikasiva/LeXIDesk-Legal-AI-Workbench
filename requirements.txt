@@ -1,0 +1,34 @@
+# In requirements.txt
+
+pandas
+tqdm
+
+# For ML/DL
+torch
+tensorflow
+scikit-learn
+
+# For CRF
+sklearn-crfsuite
+
+
+# python -m venv .venv
+# .venv\Scripts\activate
+ 
+# check what changed
+# git status
+
+# stage the changed file
+# git add src/crf_model.py
+
+# commit with message
+# git commit -m "Fix CRF model parameter bug"
+
+# push to GitHub
+#git push origin main
+
+
+#To add modifies files to git , follow the steps below
+# git add .
+# git commit -m "your commit message"
+# git push origin main
