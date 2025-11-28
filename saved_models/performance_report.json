@@ -1,0 +1,14 @@
+{
+    "baseline_crf": {
+        "precision_B": 0.9820098128293658,
+        "recall_B": 0.9088462832156071,
+        "f1_score_B": 0.9440125775176871,
+        "overall_accuracy": 0.9967172816428955
+    },
+    "hybrid_cnn_crf": {
+        "precision_B": 0.9794683776351971,
+        "recall_B": 0.8985872855701312,
+        "f1_score_B": 0.9372862029646523,
+        "overall_accuracy": 0.9963383094768647
+    }
+}
